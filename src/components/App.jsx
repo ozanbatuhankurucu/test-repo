@@ -23,7 +23,9 @@ function App(){
     })}
   
     </div>
-    <footer>test on newbranchsfsfs</footer>
+
+    <footer>test on newbranchsfsfsaasdasd</footer>
+
     </div>;
 }
 
