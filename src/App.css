@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+header{
+    padding: 25px 10px;
+    background-color: #fff591;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header h1{
+    color: #fa26a0;
+    font-family: 'McLaren', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+footer{
+    padding: 15px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.main-container{
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.noteContainer{
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    background-color: #05dfd7;
+    border: 1px solid white;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 5px 2px #fff;
+    -moz-box-shadow: 0 0 5px 2px #fff;
+    box-shadow: 0 0 5px 2px #fff;
+}
+.noteContainer h1{
+    color: #fa26a0;
+}
+.appContainer{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* -------------------------------*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardContainer{
+    max-height: 250px;
+    height: 200px;
+    position: relative;
+    margin: 25px auto;
+    width: 300px;
+    -webkit-box-shadow: 0 0 5px 2px #fff;
+    -moz-box-shadow: 0 0 5px 2px #fff;
+    box-shadow: 0 0 5px 2px #fff;
+    border: 1px solid green;
+    border-radius: 15px;
+    background-color: #00cec9;
+    
+}
+.cardContainer div:nth-child(1){
+    margin-left: 10px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    padding: 5px 5px;
+}
+.card-bottom{
+    background-color: #81ecec;
+    padding: 25px 10px;
+    border-radius: 0 0 15px 15px ;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.cardContainer img{
+    top: 30px;
+    right: 5px;
+    z-index: 1;
+    position: absolute;
+    width: 100px;
+    border-radius: 50%;
+    border: 7px solid #fff;
 }
