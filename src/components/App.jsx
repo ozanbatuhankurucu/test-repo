@@ -23,6 +23,7 @@ function App(){
     })}
   
     </div>
+    <footer>test on newbranch</footer>
     </div>;
 }
 
