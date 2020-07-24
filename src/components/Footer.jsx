@@ -5,7 +5,7 @@ var currentYear = new Date().getFullYear();
 
 function Footer(){
 return <footer>
-    <p>@Copyright Prplbx</p>
+    <p>@Copyright Prplbxcccc</p>
 </footer>
 }
 
